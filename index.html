@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RainCheck</title>
+
+    <!--CSS-->
+    <link rel="stylesheet"
+    type="text/css"
+    href="rain-check.css">
+</head>
+
+<body>
+
+<div class="main-container">
+    <div class="flex-outer-filler"></div>
+    <div class="flex-content">
+        <h1 class="title row">Rain Check</h1>
+        <div class="description-text"></div>
+        <div id="infoBox" class="row">
+            <input type="text" id="cityInput" placeholder="City">
+            <input type="text" id="countryInput" placeholder="Country">
+            <button id="searchButton" onclick="searchCity()">Search</button>
+            <button id="checkIP" onclick="checkIp()">My Location</button>
+            <div class="description-text-container flex">
+                <div class="flex-inner-filler"></div>
+                <div id="descriptionText" class="flex-wrap">
+                    <span id="loading" class="row hidden">Loading...</span>
+
+                    <!--For simple implementation I implemented error messages into DOM-->
+                    <span id="errorCity" class="row hidden error">City input may be incorrect</span>
+                    <span id="errorCountry" class="row hidden error">Country or country code is not correct</span>
+                    <span id="errorEmpty" class="row hidden error">Please fill out all fields</span>
+                </div>
+                <div class="flex-inner-filler"></div>
+            </div>
+        </div>
+    </div>
+    <div class="flex-outer-filler"></div>
+</div>
+
+<script type="text/javascript" src="ISOCountries.js"></script>
+<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript" src="rain-check.js"></script>
+</body>
+</html>
