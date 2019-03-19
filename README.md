@@ -6,6 +6,7 @@ A web appliaction that uses API to get the temperature of a city based on their 
 # Concepts Practiced
 - DOM Manipulation via JavaScript
 - Promises
+- Responsive Web Application Design (Mobile Support)
 - Utilizing API in JavaScript
 - Validation
 - XMLHttpRequests
