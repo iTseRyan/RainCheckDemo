@@ -1,3 +1,6 @@
+# Disclaimer
+Parts of this project are omitted (Assets: Background image + API Keys)
+
 # RainCheckDemo
 A web appliaction that uses API to get the temperature of a city based on their ip address or city name and country
 - https://ipinfo.io/ API to find the user's IP
